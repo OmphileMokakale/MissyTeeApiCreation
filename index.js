@@ -13,8 +13,6 @@ app.use(express.static('public'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-
-
 // import the dataset to be used here
 
 const PORT = process.env.PORT || 4017;
