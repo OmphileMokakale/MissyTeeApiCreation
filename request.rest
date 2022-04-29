@@ -1,0 +1,10 @@
+GET http://localhost:6000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiT21waGlsZU1va2FrYWxlIiwiaWF0IjoxNjUxMjY0NDUzfQ.ss9ef-bN05qL7Gl5sOrm9drf0LqEahLKG5JSXRMFzww
+
+###
+POST http://localhost:6000/login
+Content-Type: application/json
+
+{
+    "username": "OmphileMokakale"
+}
